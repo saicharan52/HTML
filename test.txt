@@ -1,0 +1,5 @@
+Hi, This is a test file created in ubuntu command line using the command below.
+
+$touch test.txt
+
+
