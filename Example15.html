@@ -1,0 +1,41 @@
+<html>
+	<head>
+	<!-- 
+	This Example explains the basic concepts of forms.
+	<Input> tag with type attribute with its value "text" , "radio" and submit button.
+			select option and optgroup
+			button with alert
+	-->
+		<title>Example 15</title>
+	</head>
+	<body>
+		<form>
+			First Name:<br/>
+			<input type="text" name="fname"><br/>
+			Last Name:<br/>
+			<input type="text" name="lname"><br/>
+			Gender:
+			<input type="radio" name="sex" value="Male" checked>Male
+			<input type="radio" name="sex" value="Female">Female<br/>
+			Select Car:<select name="cars">
+				<option value="bmw">BMW</option>
+				<option value="vw">VW</option>
+				<option value="aston">Aston Martin</option>
+				<option value="lamborghini">Lamborghini</option>
+			</select><br/>
+			<select>
+				<optgroup label="Swedish Cars">
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+				</optgroup>
+				<optgroup label="German Cars">
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</optgroup>
+			</select>
+			<input type="submit" value="Save">
+			<button type="button" onclick="alert('WTF !')">Press Me</button>
+		</form>
+	</body>
+
+</html>

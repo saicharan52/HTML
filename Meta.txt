@@ -1,0 +1,90 @@
+Example-1: Basic html
+
+Example-2:
+
+Example-3:
+
+Example-4: Color attributes for styling the body and other elements.
+
+Example-5: Attributes like bold, italic, emphasize, delete, insert, mark, subscript, superscript etc.
+
+Example-6: Attributes Quote, blockquote, address, abbr(abbreviation), Tags=> cite, bdo(Bidirectional), dfn(Define with its title and Id attribute)
+
+Example-7(NotClear/Confusing): kbd(Keyboard input), samp(computer output), var(Mathematical variable displays Italic) 
+	Conditional comments(Not practially done or executed.. check w3schools.)
+
+Example-8: CSS and its types mainly Inline and Internal. External CSS to be implemented in future examples. Also attributes border, padding, margin,
+		Id, class.
+
+Example-9: Hyperlink and its attribute "target" with values => _blank, _top, _framename, _parent, _self and Id attribute to define and address bookmarks.
+
+Note:	*Image maps and image float to be referred @ w3schools
+	*Lists(Ordered, Unordered and Descriptive along with styles and attributes)
+	*Block Elements( <div> => its used as a container of other html elements and used to style block of content)
+		<div style="background-color:black; color:white; padding:20px;">
+	*Input attributes.
+		value,readonly,disabled,size,maxlength
+		HTML-5 added more input attributes
+			autocomplete,novalidate,form attribute,
+			formaction--overrides action attribute of form element
+			formmethod--overrides method attribute of form element
+			formenctype--overrides enctype attribute of form element
+			formnovalidate-- overrides novalidate attribute of form element
+			formtarget--overrides target attribute of form element
+			List attribute-- refers to an element with predefined values for an input
+			multiple -- it allows you to select multiple values for an input element
+			Pattern -- Used to check the value enter in an input against a specific pattern.
+			Placeholder-- gives a hint of what value should be entered on an input element
+			Step -- It gives legal number intervals allowed on an input element
+			<h2>London</h2>
+			<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+		</div>
+	*Inline Elements(<span> => its used as a container of text and used to style specific parts of text)
+		<h1>My <span style="color:red">Important</span> Heading</h1>
+	*Responsive Web Design (Using Bootstrap)
+	*script and noscript tags(script for client side javascript and noscript for browsers which doesn't support client side scripting
+	*html, head and body tags can be ommited in html-5.
+	*Html <base> tag.
+	*Entities and Diacritical Marks. Symbols.
+	* Character sets => ASCII, ANSI, ISO-8859 and UTF-8.
+	
+Example-10: Tables
+
+Example-11: Classes
+		Classing Block Elements
+		Classing Inline Elements
+
+Example-12:Layouts(dividing content into multiple columns)
+		HTML-5 offers a different symantec to achieve above functionality.See Example-13
+		
+Example-13:Layouts using HTML-5.
+
+Example-14: iframes and meta with its attribute to refresh the web page in regular intervals.
+		
+HTML FORMS
+Note:
+*FieldSets
+*Datalist, keygen and output tags added in HTML-5
+*
+*
+*
+*
+*
+*
+Example-15:<Input> tag with type attribute with its value "text" , "radio" and submit button. Select option with optgroup, button with alert.
+
+Example-16:the design of a simple calculator with addition capability. Input type = range, oninput attribute of form tag and output tag
+
+Example-17: This Example explains  input types  
+	=> text, password, checkbox.
+	HTML5 added several new input types:(Not all practically implemented below)
+		color explained,date explained with min/max attribute
+		datetime not supported in chrome, firefox and IE
+		datetime-local not supported in firefox and IE
+		email,month same as date,number explained with its min and max attributes,range,search,tel,time,url,week same as date
+		HTML5 added the following attributes for <input>:
+			autocomplete,autofocus explained,form,formaction,formenctype,formmethod,formnovalidate,formtarget,height and width,list,min and max,multiple,pattern (regexp),placeholder,required,step.
+		and the following attributes for <form>:
+			autocomplete
+			novalidate
+ 

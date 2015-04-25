@@ -1,0 +1,42 @@
+<html>
+	<head>
+	<!-- 
+	This Example explains cascading style sheets and its attributes
+	CSS is 3 types
+		Inline using style  attribute for a html tag
+		Internal using style element in head tag
+		External to be implemented in future examples
+		Attributes:
+			border,padding,margin,font-family,background-color,ID,class
+	
+	-->
+		<title>Example 8</title>
+		<style>
+			h1 {color:blue}
+			p{
+			color:red;
+			font-family:arial;
+			border:1px solid black;
+			padding:10px;
+			margin:15px;
+			}
+			<!--The #p01 below inherits all properties of "p" above -->
+			p#p01{
+			color:green;
+			font-family:verdana;
+			}
+			p.c01{
+			background-color:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="c01"> This is a test header 1 </h1>
+		<p> This is a test paragraph </p>
+		
+		<p id="p01" class="c01">This is a test paragraph with specified ID.</p>
+		
+		
+	</body>
+
+</html>

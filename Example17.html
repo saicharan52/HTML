@@ -1,0 +1,66 @@
+<html>
+	<head>
+	<!-- 
+	This Example explains  input types  
+	=> text, password, checkbox.
+	HTML5 added several new input types:(Not all practically implemented below)
+		color explained
+		date explained with min/max attribute
+		datetime not supported in chrome, firefox and IE
+		datetime-local not supported in firefox and IE
+		email
+		month same as date
+		number explained with its min and max attributes.
+		range
+		search
+		tel
+		time
+		url
+		week same as date
+		
+		HTML5 added the following attributes for <input>:
+			autocomplete
+			autofocus explained
+			form
+			formaction
+			formenctype
+			formmethod
+			formnovalidate
+			formtarget
+			height and width
+			list
+			min and max
+			multiple
+			pattern (regexp)
+			placeholder
+			required
+			step
+			
+		and the following attributes for <form>:
+			autocomplete
+			novalidate
+
+	-->
+		<title>Example 17</title>
+	</head>
+	<body>
+			<form>
+				Username:<br/><input type="text" name="uname"></br>
+				Password:<br/><input type="password" name="pword" autofocus><br/>
+				
+				<input type="checkbox" name="vehicle" value="car">I've got a car.<br/>
+				<input type="checkbox" name="vehicle" value="bike">I've got a bike.<br/>
+				Rank between 1 and 10:<input type="number" name="rank" min="1" max="10"><br/>
+				Birthday:<input type="date" name="bday" min="1989-12-31"><br/>
+				Email:<input type="email" name="email"><br/>
+				Search:<input type="search" name="googlesearch">
+				
+				
+				
+				
+				<input type="color" name="favcolor" value="#ff0000"><br/>
+				<input type="submit" value="save">
+			</form>
+	</body>
+
+</html>

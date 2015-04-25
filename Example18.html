@@ -1,0 +1,47 @@
+<html>
+	<head>
+	<!-- 
+			This Example explains the input attributes like 
+				autofocus,autocomplete,form attribute,
+				List attribute => uses datalist to select from a predefined set of input values.
+				multiple attribute => allows users to select multiple values in an input element
+				Pattern attribute which helps check value of input against a specific pattern
+				Placeholder attribute which gives a hint of what type of values to be entered in an input element
+				step attribute -- it specifies the legal number intervals for an input elements
+	
+	
+	-->
+		<title>
+			Example 18
+		</title>
+	</head>
+	
+	<body>
+		First name:<input type="text" name="fname" autofocus autocomplete>
+		
+	<!-- The below form gives a demo of form attribute-->
+			<form action="" method="" id="form1">
+				FirstName:<input type="text" name="fname"><br/>
+				<input type="submit" value="save">
+			</form>
+			LastName:<input type="text" name="lname" form="form1"> <!-- This input is also added to the above form by using the form attribute-->
+			
+	<!-- The below is a demo of List attribute-->
+			<br/>List of Browsers<input list="browsers">
+				<datalist id="browsers">
+					<option value="IE">
+					<option value="Chrome">
+					<option value="Firefox">
+					<option value="Safari">
+				</datalist>
+				
+	<!--The below code gives a demo of multiple attribute for an input element -->
+			<br/>Select Files:
+			<input type="file" name="attachment" multiple>
+	<!-- The below line of code gives a demo of pattern attribute, Placeholder attribute, required attribute-->
+			<br/>Enter State:
+			<input type="text" name="statecode" pattern="[A-Za-z]{2}" title="Two Letter State Code" form="form1" placeholder="Please enter the state code" required>
+			<!--The below code gives a demo of step attribute -->
+			<br/>Please enter points:<input type="number" step="3" name="points" form="form1">
+	</body>
+</html>
